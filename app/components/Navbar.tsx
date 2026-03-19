@@ -27,36 +27,49 @@ export default function Navbar({ onCartClick }: { onCartClick: () => void }) {
     }}>
 
       {/* ✅ LOGO */}
-      <a href="/" style={{
-        textDecoration: "none",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "flex-start",
-        lineHeight: 1
-      }}>
-        <Image
-          src="/picture.png"   // your image
-          alt="AROMAX Logo"
-          width={50}
-          height={50}
-          priority
-        />
+<a href="/" style={{
+  textDecoration: "none",
+  display: "flex",
+  alignItems: "center",
+  gap: 12
+}}>
+  {/* Logo Image */}
+  <Image
+    src="/picture.png"
+    alt="AROMAX Logo"
+    width={40}
+    height={40}
+    priority
+  />
 
-        <span style={{
-          fontSize: 9,
-          letterSpacing: "0.35em",
-          textTransform: "uppercase",
-          color: "rgb(255, 255, 255)",
-          marginTop: 4,
-          fontFamily: "'Raleway', sans-serif"
-          
-          
-        }}>
-         <span className="logo-text">AROMAX</span>
-          Define Your Presence
-        </span>
-      </a>
+  {/* Text Block */}
+  <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
+    
+    {/* AROMAX */}
+    <span style={{
+      fontFamily: "'Cormorant Garamond', serif",
+      fontSize: 20,
+      fontWeight: 600,
+      letterSpacing: "0.25em",
+      color: "#D4AF37"
+    }}>
+      AROMAX
+    </span>
 
+    {/* Tagline */}
+    <span style={{
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: 8,
+      letterSpacing: "0.35em",
+      textTransform: "uppercase",
+      color: "rgba(255,255,255,0.4)",
+      marginTop: 2
+    }}>
+      Define Your Presence
+    </span>
+
+  </div>
+</a>
       {/* LINKS */}
       <div style={{ display: "flex", gap: 40 }}>
         {["Collection", "About", "Contact"].map(l => (
