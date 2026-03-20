@@ -36,7 +36,7 @@ export default function Navbar({ onCartClick }: { onCartClick: () => void }) {
   {/* Logo Image */}
   <Image
     src="/picture.png"
-    alt="AROMAX Logo"
+    alt="AROMYX Logo"
     width={40}
     height={40}
     priority
@@ -45,7 +45,7 @@ export default function Navbar({ onCartClick }: { onCartClick: () => void }) {
   {/* Text Block */}
   <div style={{ display: "flex", flexDirection: "column", lineHeight: 1 }}>
     
-    {/* AROMAX */}
+    {/* AROMYX */}
     <span style={{
       fontFamily: "'Cormorant Garamond', serif",
       fontSize: 20,
@@ -53,7 +53,7 @@ export default function Navbar({ onCartClick }: { onCartClick: () => void }) {
       letterSpacing: "0.25em",
       color: "#D4AF37"
     }}>
-      AROMAX
+      AROMYX
     </span>
 
     {/* Tagline */}

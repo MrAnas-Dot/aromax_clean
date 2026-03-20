@@ -1,8 +1,8 @@
 const milestones = [
   { year: "2015", event: "The Dream Begins", desc: "A group of college friends in Chennai shared a vision — to make luxury fragrance accessible to all." },
-  { year: "2020", event: "Official Launch", desc: "AROMAX officially launched, bringing handcrafted scents to discerning customers across South India." },
+  { year: "2020", event: "Official Launch", desc: "AROMYX officially launched, bringing handcrafted scents to discerning customers across South India." },
   { year: "2021", event: "First Boutique", desc: "Our first physical home opened in Azhwarpet, Chennai — a space as refined as our fragrances." },
-  { year: "2024", event: "Going Global", desc: "AROMAX expanded to Sharjah Expo Centre, UAE — bringing our signature luxury to the Gulf." },
+  { year: "2024", event: "Going Global", desc: "AROMYX expanded to Sharjah Expo Centre, UAE — bringing our signature luxury to the Gulf." },
 ];
 
 export default function About() {
@@ -25,8 +25,8 @@ export default function About() {
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
               {[
-                "AROMAX began not in a boardroom, but in a college hostel — where a group of dreamers sat late into the night, imagining a world where luxury perfumery wasn't a privilege of the few, but a language spoken by all who dared to define their presence.",
-                "After years of learning the ancient art of fragrance, sourcing the rarest botanicals from across continents, and perfecting every note — AROMAX was officially born in 2020.",
+                "AROMYX began not in a boardroom, but in a college hostel — where a group of dreamers sat late into the night, imagining a world where luxury perfumery wasn't a privilege of the few, but a language spoken by all who dared to define their presence.",
+                "After years of learning the ancient art of fragrance, sourcing the rarest botanicals from across continents, and perfecting every note — AROMY X was officially born in 2020.",
                 "Our first boutique opened in Azhwarpet, Chennai. Today, our scents drift through Sharjah Expo Centre, UAE — reaching those who know that a fragrance is not worn, it is lived.",
               ].map((p, i) => (
                 <p key={i} style={{ fontFamily: "'Raleway', sans-serif", fontSize: 14, color: "rgba(250,247,240,0.5)", lineHeight: 1.85 }}>{p}</p>

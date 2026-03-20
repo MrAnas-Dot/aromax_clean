@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AROMAX — Luxury Perfumes | Define Your Presence",
+  title: "AROMYX — Luxury Perfumes | Define Your Presence",
   
   description:
-    "Discover AROMAX's curated collection of luxury perfumes. Premium scents crafted for those who dare to be remembered. Now in Sharjah Expo Centre.",
-  keywords: "luxury perfume, Arabic fragrance, oud, AROMAX, Sharjah, perfume UAE",
+    "Discover AROMYX's curated collection of luxury perfumes. Premium scents crafted for those who dare to be remembered. Now in Sharjah Expo Centre.",
+  keywords: "luxury perfume, Arabic fragrance, oud, AROMYX, Sharjah, perfume UAE",
   openGraph: {
-    title: "AROMAX — Luxury Perfumes",
+    title: "AROMYX — Luxury Perfumes",
     description: "Curated Pair Offer — Any 2 for AED 100",
     type: "website",
   },

@@ -25,7 +25,7 @@ export default function CheckoutForm({ onSuccess }: { onSuccess: () => void }) {
       : `${totalItems} × AED 69`;
     const lines = items.map(i => `• ${i.name} (x${i.quantity}) — ${i.notes}`).join("\n");
     const msg = encodeURIComponent(
-      `🌸 *New AROMAX Order*\n\n*Customer Details*\nName: ${form.name}\nPhone: ${form.phone}\nAddress: ${form.address}\n\n*Order Summary*\n${lines}\n\n*Pricing:* ${pricingNote}\n*Total: AED ${totalPrice}*\n\n📍 AROMAX — Define Your Presence`
+      `🌸 *New AROMYX Order*\n\n*Customer Details*\nName: ${form.name}\nPhone: ${form.phone}\nAddress: ${form.address}\n\n*Order Summary*\n${lines}\n\n*Pricing:* ${pricingNote}\n*Total: AED ${totalPrice}*\n\n📍 AROMYX — Define Your Presence`
     );
     window.open(`https://wa.me/971547447047?text=${msg}`, "_blank");
     onSuccess();

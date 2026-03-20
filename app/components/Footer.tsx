@@ -31,7 +31,7 @@ export default function Footer() {
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "64px 40px", display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gap: 56 }}>
         {/* Brand */}
         <div>
-          <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 30, fontWeight: 600, color: "#D4AF37", letterSpacing: "0.26em" }}>AROMAX</span>
+          <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 30, fontWeight: 600, color: "#D4AF37", letterSpacing: "0.26em" }}>AROMYX</span>
           <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: 9, letterSpacing: "0.38em", textTransform: "uppercase", color: "rgba(255,255,255,0.28)", marginTop: 4, marginBottom: 16 }}>Define Your Presence</p>
           <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: 13, color: "rgba(250,247,240,0.38)", lineHeight: 1.8, maxWidth: 260 }}>Premium luxury fragrances handcrafted for those who dare to leave a mark on every room they enter.</p>
           <div style={{ display: "flex", gap: 10, marginTop: 22 }}>
@@ -79,7 +79,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", padding: "18px 40px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: 11, color: "rgba(255,255,255,0.2)", letterSpacing: "0.08em" }}>© 2024 AROMAX. All rights reserved.</p>
+        <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: 11, color: "rgba(255,255,255,0.2)", letterSpacing: "0.08em" }}>© 2024 AROMYX. All rights reserved.</p>
         <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: 11, color: "rgba(255,255,255,0.2)", letterSpacing: "0.08em" }}>Chennai · Sharjah</p>
       </div>
     </footer>
